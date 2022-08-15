@@ -1,0 +1,643 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 1300vh;
+    background-color:white;
+}
+nav{
+    display: flex;
+    
+
+}
+.img{
+    margin: 15px;
+}
+.head{
+    display: flex;
+    justify-content:space-around ;
+    margin: auto;
+    gap: 30px;
+    margin-right: 2px;
+    
+}
+.head>li{
+    list-style-type:none;
+    color: rgb(96, 94, 94);
+    margin: auto;
+    font-weight:bold ;
+    font-size: larger;
+}
+.bt>button{
+    display: flex;
+    width: 200px;
+    border: none;
+    background-color: white;
+}
+.bt>button>img{
+    background-color: red;
+    border: 8px solid red ;
+    border-radius: 50%;
+    
+}
+.bt>button>p{
+    color:wheat;
+    text-align: center;
+    margin: auto;
+    border: 2px solid green;
+    height:40px;
+    width: 100%;
+    border-start-end-radius:33% ;
+    border-bottom-right-radius:33% ;
+    background-color: red;
+    margin-left: -10px;
+    border: none;
+    
+}
+.graphics{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.middle_text{
+
+}
+.middle_text>h4{
+    color: red;
+    text-align: center;
+    margin: 10px;
+
+}
+.middle_text>h1{
+    width:530px;
+    font-size: 3em;
+    text-align: center;
+
+}
+.middle_text>h1>img{
+    margin:0px 0px 60px 130px;
+    width: 200px;
+}
+.middle_text>p{
+    font-size: 1.5em;
+    text-align: center;
+    width: 450px;
+    margin-left: 50px;
+}
+.middle_text>button{
+    background-color: rgb(204, 21, 21);
+    width:170px;
+    padding: 13px;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: larger;
+    border: none;
+    margin-top: 30px;
+}
+.section1wire{
+    height: 100px;
+    align-items: center;
+    margin: ;
+    margin-left:50% ;
+}
+.border{
+    border-top: 2px solid rgb(117, 112, 112);
+    border-bottom: 2px solid rgb(117, 112, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    height: 200px;
+    width: 90%;
+    margin-left:5rem ;
+}
+.ingresive_img>img {
+    background-color: red;
+    color: blue;
+}
+.border>h1{
+    width: 500px;
+}
+.border>p{
+    font-size: x-large;
+}
+.sec3_wire>img{
+    width: 6rem;
+    margin:5% 33% 2% ;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.section>.why_zuri>h2{
+color: rgb(204, 21, 21);
+
+
+}
+.section>.why_zuri>div{
+    max-width: 680px;
+    font-size:2.5em;
+    font-weight: bolder;
+}
+.star_img>img{
+    max-height: 200px;
+}
+.cards{
+    display:grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f" ;
+    gap:1rem;
+   
+    justify-content: center;
+    margin-top:4rem ;
+}
+
+.card{
+    background-color:white;
+    width: 25rem;
+    height: 28rem;
+    border-radius: 10px;
+    border-left:4px solid rgb(204, 21, 21) ;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
+
+    
+}
+.a{
+    grid-area: a ;
+    background-color: rgb(204, 21, 21);
+    color: white;
+
+}
+.b{
+    grid-area:b ;
+}
+.c{
+    grid-area:c ;
+}
+.d{
+    grid-area:d ;
+}
+.e{
+    grid-area:e ;
+}
+.f{
+    grid-area:f ;
+}
+
+.card>h1{
+    color:black;
+    font-size: 4rem;
+    margin: 33px;
+    margin-top: -7px;
+
+    
+}
+.card>h2{
+    color:rgb(44, 40, 40);
+    font-size: 2rem;
+    margin: 33px;
+    
+    
+
+}
+.card>div{
+    color: rgb(40, 37, 37);
+    font-size: large;
+    font-weight: bold;
+    margin: 33px;
+}
+.card>img{
+    height: 115px;
+    margin-left:71%;
+}
+ .a>h1{
+    color: aliceblue;
+}
+.a>h2{
+    color: aliceblue;
+}
+.a>div{
+    color: aliceblue;
+}
+.big_card{
+    display: flex;
+    background-color: rgb(241, 45, 45);
+    height: 55rem;
+    justify-content: space-around;
+}
+.train{
+    color: white;
+    margin: 4rem;
+
+}
+.ab{
+    font-size: x-large;
+    
+    
+
+}
+.bc{
+    font-size: 3rem;
+}
+.cd{
+    font-size: large;
+}
+.btnn{
+    background-color:white ;
+    color: rgb(241, 45, 45);
+    width: 10rem;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    font-size:medium;
+    font-weight: bold;
+    margin-top:-70px;
+}
+.btnn>a{
+    color:rgb(241, 45, 45);
+    cursor: pointer;
+    text-decoration: none;
+}
+.our_service{
+    display: grid;
+    grid-template-areas: 
+    "Teamwork Mentorship"
+    "Practice Fun";
+    gap:19px;
+    justify-content: space-around;
+
+}
+.h{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 14rem;
+    
+    margin: auto;
+    
+
+}
+.Teamwork{
+    grid-area: Teamwork;
+}
+.Mentorship{
+    grid-area: Mentorship;
+}
+.Practice{
+    grid-area: Practice;
+    margin-left: 30px;
+}
+.Fun{
+    grid-area: Fun;
+}
+.Fun>img{
+    margin: auto;
+    text-align: center;
+    background-color: green;
+    margin-top: 20px;
+}
+.section6_arrow{
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+.section6{
+    display: grid;
+    grid-template-areas: 
+    "frontnd_dev backnd_dev product_design"
+    "dev_ops full_stacks frameworks";
+    gap: 10px;
+    
+}
+.dev{
+   border-radius: 30px;
+    background-color:wheat;
+    height: 20rem;
+    width: 90%;
+    margin: auto;
+    
+    
+}
+.dev>h3{
+    color: red;
+    margin: 20px 10px 20px 30px;
+}
+.img{
+margin: 20px 10px 20px 30px ;
+width: 45px;
+margin-top: ;
+
+}
+.dev>h4{
+    margin: 20px 10px 20px 30px;
+    
+}
+.dev_enroll{
+    width: 12%;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: rgb(204, 21, 21);
+    color:white ;
+    border: none;
+    font-size: medium;
+    text-align: cente;
+    margin-left: 45%;
+    margin-top: 70px;
+    
+}
+.faqs_container{
+font-family: "roboto", sans-serif;
+max-width: 700px;
+margin:0px auto;
+border-bottom:2px solid red ;
+border-top:2px solid red ;
+height: 40rem;
+}
+.faqs_container .question-container{
+    box-shadow: 0px 4px 8px -3px rgba(0, 0, 0, 0.3);
+}
+.faqs_container h3{
+    padding:4px 32px ;
+    text-align: center;
+     
+}
+.faqs_container h1{
+    padding:4px 32px ;
+    text-align: center;
+}
+.faqs_container .faq-header{
+    display: flex;
+    background-color: #03071e;
+    color: white;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+ 
+}
+.faqs_container .faq-header .open-qustn,
+.faqs_container .faq-header .close-qustn {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    font-weight: bold;
+    padding: 0 32px;
+    font-size: 22px;
+    transform: translateY(-8px);
+    opacity: 0;
+
+
+}
+.faqs_container .faq-header .open-qustn.active,
+.faqs_container .faq-header .close-qustn.active{
+    opacity: 1;
+    transform: translateY(0)
+}
+
+.faqs_container .faq-header h3{
+    padding: 0 32px;
+    font-size: 20px;
+    margin: 10px;
+    
+    
+
+}
+.faqs_container .content{
+    padding: 0 32px;
+    background-color: #fdfffc;
+    line-height: 2;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 300ms;
+}
+.faqs_container .content.active{
+    max-height: 600px;
+}
+.more-questions{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin: 6rem;
+    
+}
+.more-questions button{
+    background-color: rgb(204, 21, 21);
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 25px;
+    color: white;
+    font-size: medium;
+    border: none;
+
+}
+.more-questions button span {
+    margin-bottom: 60px;
+}
+.more-questions button .fa-twitter{
+    background-color: blue;
+    width: 2rem;
+    
+}
+.sec7-img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.section7-wir{
+    height: 120px;
+    
+    
+    
+}
+.star-1{
+    height: 120px;
+   
+    
+}
+.section7-box{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+
+
+.container-FT{
+    background-color: #03071e;
+    width: 40%;
+ list-style-position: inside;
+ color: white;
+ border-radius: 60px;
+ display:flex;
+ max-height:50rem ;
+}
+.PT-container{
+    background-color: #03071e;
+    width: 40%;
+ list-style-position:inside;
+ color: white;
+ border-radius: 60px;
+ max-height:50rem;
+ display: flex;
+}
+
+
+
+.caption{
+    text-align: center;
+    margin: auto;
+    line-height: 2;
+}
+.caption h2{
+    color: rgb(241, 45, 45); 
+
+}
+.caption h1{
+  font-size:2.5rem;
+    
+}
+.caption p{
+    font-size:1.5rem;  
+  }
+  .body{
+    margin: 3rem;
+}
+
+  .body>h1{
+    margin-bottom:1.5rem ;
+  }
+
+.body>p{
+ margin-bottom: 1.5rem;  
+ 
+}
+.available-tracks{
+    width: 23rem;
+}
+.Phases{
+    margin-top: 1.5rem;
+    width: 200px;
+
+    
+}
+
+.Post-Program{
+    margin-top: 1.5rem;
+    width: 200px;
+    
+}
+
+
+.BE{
+    margin-top: 1.5rem;
+    
+}
+.FE{
+    margin-top: 1.5rem;  
+}
+
+.hour-img{
+    height: 150px;
+    margin: 32rem -10rem;
+
+}
+.time-img{
+    height: 180px;
+    margin: 26rem -10rem;
+}
+.last-box{
+    width: 90%;
+    background-color: rgb(204, 21, 21);
+    height: 28rem;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 15rem;
+    position: relative;
+
+
+}
+.round3{
+height: 10rem;
+margin: 1rem;
+}
+.curve4{
+    height: 9rem;
+    position: absolute;
+    left: 68rem;
+    
+}
+.content6{
+    text-align: center;
+    margin-top: -6rem;
+    color: white;
+}
+.content6>h3{
+    margin-bottom:1rem ;
+    
+}
+.content6>h1{
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    
+}
+.content6>button{
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 30px;
+    color: rgb(204, 21, 21);
+    background-color: white;
+    border: none;
+    font-size: medium;
+}
+.curve7{
+    height: 6rem;
+    margin-top: 2rem;
+}
+.mains2{
+    height: 6rem;
+   margin: 0 0 0 80%;
+}
+footer{
+    display: flex;
+    border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    background: gree;
+    justify-content: space-around;
+    height: 15rem;
+    border-radius: 10px;
+    align-items: center;
+}
+.f-logo{
+    margin-top: 8rem;
+}
+
+.f-logo>p{
+    margin-right: 10rem ;
+    margin-top:3rem;
+    font-weight: bold;
+}
+.fa-brands{
+    color: rgb(204, 21, 21);    
+font-size: xx-large;
+}
+.f-icons1 {
+margin-top:4rem ;
+}
+.f-icons1 p{
+    margin-top: 4rem;
+}
+    
+
+
+
+
+
+
+
+
+
+

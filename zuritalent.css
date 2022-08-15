@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+.nav-bar{
+    display: flex;
+}
+.logo div{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+.nav-bar>div{
+    margin: 2rem;
+    font-size: large;
+}
+.nav-bar>.home-border{
+    border-bottom: 3px solid red;
+    
+    
+}
+.hire-button{
+    background-color: red;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    padding:1rem;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5rem;
+}
+.hire-button p{
+
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+section h1{
+    font-size: 3rem;
+}
+section span{
+    color: red;
+}
+section p{
+    font-size: x-large;
+}
+
+
+.section1{
+    height: 30rem;
+}
+.btn{
+    display: flex;
+    gap:1.2rem;
+}
+.btn button{
+    width: 13rem;
+    padding: 0.80rem;
+    background: red;
+    border-bottom-right-radius: 12px;
+    color: white;
+    font-weight:700;
+    border: none;
+    margin-top:2.5rem ;
+}
+#JTP-BTN{
+    background-color: rgb(126, 118, 118);
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+    background-color: rgb(234, 230, 230);
+    height: 40rem;
+    align-items: center;
+   /* background-image: url(images\bgsection2.063bd869082548bafa74.png);
+    background-position: center;
+    background-size: cover;*/
+   
+}
+.section2 h1{
+    font-family:sans-serif;
+    font-size: 2.5rem;
+}
+.section2 h3{
+    margin-top: 1rem;
+}
+.section2 .imgs{
+   
+}
+.section2 span{
+    padding: 2rem;
+   
+
+}
+.section2 span img{
+    margin-top: 1.2rem;
+   
+}
+
+
+.section2 h4{
+    margin-top: 1rem;
+    color: rgb(63, 59, 59);
+}
+
+
+.right-img-container img{
+    height: 25rem;
+    margin-top: -5rem;
+}
+.section3{
+    margin-top: 6rem;
+    
+}
+.section3 h1{
+font-size: 2.5rem;
+margin-left: 3rem;
+
+}
+.section3 span{
+    color: red;
+}
+.tracks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.tracks div{
+    background-color: rgb(224, 234, 224);
+   width:10rem ;
+   padding: 0.70rem;
+   text-align: center;
+   border-radius: 5px;
+  
+
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; 
+   transition: cubic-bezier(0.19, 1, 0.22, 1);
+  
+}
+.tracks div:hover{
+    box-shadow: rgba(36, 34, 35, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.line1{
+    height: 7.5rem;
+    margin-top: -6rem;
+}
+.work-placement{
+    display: flex;
+    margin: 3rem;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.work-placement div{
+    background-color: rgb(224, 234, 224);
+    width:10rem ;
+    padding: 0.70rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight:500;
+}
+/*.hire-container{
+    display: grid;
+    grid-template-areas: 
+    "one two three"
+    "four five ."         ;
+   
+    gap: 3rem;
+    justify-content: space-around;
+}
+.hire-container>div{
+width:20rem;
+height: 20rem;
+background-color: rgb(236, 175, 71);
+text-align: center;
+border-bottom-right-radius: 15px;
+}
+
+.card-a{
+    grid-area: one;
+
+}
+.card-b{
+    grid-area: two;   
+    
+}
+.card-c{
+    grid-area: three;   
+}
+.card-d{
+    grid-area: four;   
+}
+.card-e{
+    grid-area: five;  
+}*/
+.last-container{
+    background-colo: rgb(235, 226, 226);
+    height: 60rem;
+    margin-top:10rem;
+
+}
+.hd{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: ;
+    color: red;
+}
+.last-container span{
+    color: rgb(247, 22, 22);
+}
+ .hire-container1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.hire-container1>div{
+    width:25rem;
+    height: 20rem;
+    background-color: rgb(236, 175, 71);
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    margin-top:10rem;
+    }
+    .hire-container1>div>img{
+        margin-top: 3rem;
+    }
+    .hire-container1>div>p{
+        margin-top: 3rem;
+        font-size: large;
+        font-weight: 500;
+    }
+    .hire-container1 :hover{
+        background-color: rgb(37, 35, 35);
+        color: white;
+    }
+
+    .hire-container2{
+        display: flex;
+        justify-content: center;  
+        gap: 3rem;
+        
+    }
+     .hire-container2>div{
+        width:25rem;
+        height: 20rem;
+        background-color: rgb(236, 175, 71);
+        text-align: center;
+        border-bottom-right-radius: 15px;
+        margin-top: 4rem;
+        
+        }
+        .hire-container2>div>img{
+            margin-top: 3rem;
+        }
+        .hire-container2>div>p{
+            margin-top: 3rem;
+            font-size: large;
+            font-weight: 500;
+        }
+        .hire-container2 :hover{
+            background-color: rgb(37, 35, 35);
+            color: white;
+        }
+        
+        
+
+@media screen  and (max-width:900px) {
+    .hire-container{
+        display: grid;
+        grid-template-areas: 
+        "one two"
+        "three four"
+        "five  five"; 
+    }  
+}
+@media screen  and (max-width:600px) {
+    .hire-container{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }  
+}
+
+.btn2{
+    display: flex;
+    gap:1.2rem;
+    justify-content: center;
+}
+.btn2 button{
+    width: 13rem;
+    padding: 0.80rem;
+    background: red;
+    border-bottom-right-radius: 12px;
+    color: white;
+    font-weight:700;
+    border: none;
+    margin-bottom:3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+#JTP-BTN2{
+    background-color: rgb(126, 118, 118);
+}
+.btn2 button:hover{
+    background-color:rgb(40, 37, 37);
+}
+#JTP-BTN2:hover{
+    background-color:rgb(193, 141, 52) ;
+}
+footer{
+    height: 15rem;
+    background-color: rgb(25, 23, 23);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+.left h1{
+    color: red; 
+}
+.left span{
+    
+    color: white;
+}
+.left p{
+    margin-top: 4rem;
+    color: white;
+}
+.right img{
+    height: 2rem;
+    background: rgb(25, 25, 197);
+    cursor: pointer;
+}
+.right p{
+    margin-top:4rem ;
+    color: white;
+    cursor: pointer;
+}

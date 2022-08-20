@@ -108,36 +108,46 @@ header > h1 > span {
   .zuri_offers {
     display: block;
     margin: 3rem;
+    gap:20px;
     
   }
-  .zuri_training {
-    margin-top: 20rem;
-    width:auto;
+  .training br  {
+    
+    display:none ;
+    
    
     
     
    
   }
-  .zuri_internship {
-    margin-top: 20rem;
-    width:auto;
+  
+  .internship br   {
+    display:none ;
+    margin-top: 20px;
+    
+  
    
  
   }
-  .zuri_talent {
-    margin-top: 20rem;
+  .talent br  {
+    display:none ;
+    
     
 
 
   }
+  .zuri{
+    margin-top: 10rem;
+    text-align: justify;
+  }
 }
- .zuri_training h3 {
+ .training h3 {
   color: rgb(61, 58, 58);
-  width: 900px;
-  background-color: red;
+  
+  
  
 }
-.zuri_training a {
+.training a {
   text-decoration: none;
   font-size: large;
   color: red;
@@ -149,13 +159,13 @@ header > h1 > span {
 
 }
 
-.zuri_offers > .zuri_internship h3 {
+.zuri_offers > .internship h3 {
   
   color: rgb(61, 58, 58);
-  width: 900px;
+ 
   
 }
-.zuri_internship a {
+.internship a {
   text-decoration: none;
   font-size: large;
   position: relative;
@@ -164,13 +174,12 @@ header > h1 > span {
   font-size: large;
   color: red;
 }
-.zuri_talent h3 {
-  margin-right: 30px;
+.talent h3 {
   color: rgb(61, 58, 58);
-  : 900px;
+  
   
 }
-.zuri_talent a {
+.talent a {
   text-decoration: none;
   font-size: large;
   position: relative;

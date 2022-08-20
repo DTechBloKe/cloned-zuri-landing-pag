@@ -9,6 +9,12 @@ body{
 nav{
     display:flex;
     justify-content: space-around;
+    background: whitesmoke;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
 }
 .nav-bar{
     display: flex;
@@ -43,6 +49,7 @@ section{
     display: flex;
     justify-content: space-around;
     margin-top: 10rem;
+    
 }
 section h1{
     font-size: 3rem;
@@ -145,11 +152,15 @@ margin-left: 3rem;
   
 
    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; 
-   transition: cubic-bezier(0.19, 1, 0.22, 1);
+   transition-duration: 500ms;
+   
   
 }
 .tracks div:hover{
-    box-shadow: rgba(36, 34, 35, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+   /* position: relative;
+    bottom:10px; */
+    transform: translate(-15px,-15px);
+  
 }
 .line1{
     height: 7.5rem;
@@ -163,12 +174,24 @@ margin-left: 3rem;
 }
 .work-placement div{
     background-color: rgb(224, 234, 224);
-    width:10rem ;
+    width:13rem ;
     padding: 0.70rem;
     text-align: center;
     border-radius: 5px;
-    font-size: medium;
-    font-weight:500;
+    font-size: 1rem;
+    font-weight:900;
+    transition-duration: 500ms;
+    
+    
+   
+}
+.work-placement div:hover{
+    transform: translateY(-15px);
+    
+    
+    
+    
+    
 }
 /*.hire-container{
     display: grid;
